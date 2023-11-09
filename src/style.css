@@ -1,0 +1,29 @@
+
+html,body{
+height: 100%;
+margin: 0;
+}
+
+
+
+
+body{
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 167, 0.89) ,   rgb(0, 0, 0)
+    );
+
+    margin-top: 20px;
+}
+
+
+
+button{
+   
+
+}
+
+footer{
+    color: white;
+}
+
+    
