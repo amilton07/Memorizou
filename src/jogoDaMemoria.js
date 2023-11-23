@@ -17,7 +17,6 @@ class JogoDaMemoria {
         this.personagensComIndentificador = []
         this.imagemPadrao = "./assets/images/default.png"
         this.personagensSelecionados= []
-        this.idInterval;
     }
 
     inicializar() {
