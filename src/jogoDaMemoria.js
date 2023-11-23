@@ -17,6 +17,7 @@ class JogoDaMemoria {
         this.personagensComIndentificador = []
         this.imagemPadrao = "./assets/images/default.png"
         this.personagensSelecionados= []
+        this.idInterval;
     }
 
     inicializar() {
@@ -49,6 +50,7 @@ class JogoDaMemoria {
         if(personagemSelecionado.id == id) {
             this.tela.exibirMessagem(false);
             this.personagensSelecionados = []
+             this.progressoID = undefined;
             return
         }
 
